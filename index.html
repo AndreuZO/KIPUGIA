@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIPUGIA | Tecnología que conecta y transforma</title>
+  <meta name="description" content="KIPUGIA: software logístico, automatización empresarial y consultoría de procesos para empresas en el Perú.">
+  <meta name="theme-color" content="#071B49">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="KIPUGIA inicio">
+        <svg class="logo__mark" viewBox="0 0 64 72" aria-hidden="true"><use href="#kipugia-mark"/></svg>
+        <span class="logo__text">KIPUGI<span>A</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#proceso" class="nav__link">Proceso</a></li>
+          <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#contacto" class="btn btn--primary btn--sm" data-magnetic>Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+      <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow" data-reveal>Soluciones tecnológicas para empresas</p>
+        <h1 class="hero__title" data-split>Tecnología que <span class="gradient-text">conecta</span> y <span class="gradient-text">transforma</span></h1>
+        <p class="hero__subtitle" data-reveal data-delay="400">
+          Desarrollamos software logístico, automatizamos procesos y te acompañamos con consultoría
+          para que tu empresa opere más rápido, con menos errores y con datos en tiempo real.
+        </p>
+        <div class="hero__actions" data-reveal data-delay="550">
+          <a href="#servicios" class="btn btn--primary" data-magnetic>Ver servicios</a>
+          <a href="#proyectos" class="btn btn--ghost" data-magnetic>Nuestros proyectos</a>
+        </div>
+
+        <ul class="hero__stats" data-reveal data-delay="700">
+          <li><strong data-count="50">0</strong><span>+ Proyectos</span></li>
+          <li><strong data-count="30">0</strong><span>+ Clientes</span></li>
+          <li><strong data-count="98">0</strong><span>% Satisfacción</span></li>
+        </ul>
+      </div>
+
+      <a href="#servicios" class="hero__scroll" aria-label="Bajar a servicios"><span></span></a>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee" aria-label="Tecnologías">
+      <div class="marquee__track">
+        <span>Node.js</span><span>Python</span><span>React</span><span>Flutter</span><span>Power BI</span><span>AWS</span><span>Azure</span><span>PostgreSQL</span><span>n8n</span><span>WhatsApp API</span><span>SUNAT</span><span>Docker</span>
+        <span aria-hidden="true">Node.js</span><span aria-hidden="true">Python</span><span aria-hidden="true">React</span><span aria-hidden="true">Flutter</span><span aria-hidden="true">Power BI</span><span aria-hidden="true">AWS</span><span aria-hidden="true">Azure</span><span aria-hidden="true">PostgreSQL</span><span aria-hidden="true">n8n</span><span aria-hidden="true">WhatsApp API</span><span aria-hidden="true">SUNAT</span><span aria-hidden="true">Docker</span>
+      </div>
+    </div>
+
+    <!-- ========== SERVICIOS ========== -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Servicios</p>
+          <h2 class="section__title">Lo que hacemos <span class="gradient-text">mejor</span></h2>
+          <p class="section__subtitle">Soluciones a medida enfocadas en eficiencia operativa, control y crecimiento.</p>
+        </header>
+
+        <!-- Prioridad ALTA: servicios principales -->
+        <div class="services__featured">
+          <article class="card card--featured" data-reveal data-tilt>
+            <span class="card__num">01</span>
+            <div class="card__icon"><i data-lucide="truck"></i></div>
+            <h3 class="card__title">Software logístico</h3>
+            <p class="card__subtitle">Control total de inventarios, almacenes, rutas y despachos en una sola plataforma.</p>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus.</p>
+            <a href="#contacto" class="card__link">Solicitar demo <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card card--featured" data-reveal data-delay="120" data-tilt>
+            <span class="card__num">02</span>
+            <div class="card__icon"><i data-lucide="workflow"></i></div>
+            <h3 class="card__title">Automatización empresarial</h3>
+            <p class="card__subtitle">Elimina tareas repetitivas y conecta tus sistemas para que trabajen solos.</p>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus.</p>
+            <a href="#contacto" class="card__link">Automatizar mi empresa <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="card card--featured" data-reveal data-delay="240" data-tilt>
+            <span class="card__num">03</span>
+            <div class="card__icon"><i data-lucide="target"></i></div>
+            <h3 class="card__title">Consultoría de procesos</h3>
+            <p class="card__subtitle">Analizamos, rediseñamos y optimizamos tus procesos antes de digitalizarlos.</p>
+            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus.</p>
+            <a href="#contacto" class="card__link">Agendar consultoría <i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+
+        <!-- Prioridad MEDIA -->
+        <div class="services__grid">
+          <article class="card" data-reveal data-tilt>
+            <div class="card__icon"><i data-lucide="smartphone"></i></div>
+            <h3 class="card__title">Aplicaciones móviles</h3>
+            <p class="card__subtitle">Apps Android e iOS conectadas a tu operación.</p>
+          </article>
+          <article class="card" data-reveal data-delay="100" data-tilt>
+            <div class="card__icon"><i data-lucide="bot"></i></div>
+            <h3 class="card__title">Agentes de IA por WhatsApp</h3>
+            <p class="card__subtitle">Atención, ventas y soporte 24/7 con inteligencia artificial.</p>
+          </article>
+          <article class="card" data-reveal data-delay="200" data-tilt>
+            <div class="card__icon"><i data-lucide="bar-chart-3"></i></div>
+            <h3 class="card__title">Business Intelligence</h3>
+            <p class="card__subtitle">Dashboards y reportes para decidir con datos.</p>
+          </article>
+          <article class="card" data-reveal data-delay="300" data-tilt>
+            <div class="card__icon"><i data-lucide="file-check-2"></i></div>
+            <h3 class="card__title">Integraciones SUNAT</h3>
+            <p class="card__subtitle">Facturación electrónica y guías integradas a tu sistema.</p>
+          </article>
+        </div>
+
+        <!-- Prioridad BAJA: servicios complementarios -->
+        <div class="services__extra" data-reveal>
+          <p class="services__extra-title">También ofrecemos</p>
+          <ul class="chips">
+            <li class="chip"><i data-lucide="cloud"></i> Migraciones a la nube</li>
+            <li class="chip"><i data-lucide="recycle"></i> Operaciones ITAD</li>
+            <li class="chip"><i data-lucide="network"></i> Cableado estructurado</li>
+            <li class="chip"><i data-lucide="headset"></i> Help Desk externo</li>
+            <li class="chip"><i data-lucide="wrench"></i> Mantenimiento de hardware</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROCESO ========== -->
+    <section class="section section--dark process" id="proceso">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2 class="section__title">De la idea a la <span class="gradient-text">transformación</span></h2>
+          <p class="section__subtitle">Un método claro, medible y con entregas continuas.</p>
+        </header>
+
+        <ol class="timeline" id="timeline">
+          <li class="timeline__step" data-reveal>
+            <span class="timeline__dot">1</span>
+            <h3>Diagnóstico</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+          </li>
+          <li class="timeline__step" data-reveal data-delay="100">
+            <span class="timeline__dot">2</span>
+            <h3>Diseño de la solución</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+          </li>
+          <li class="timeline__step" data-reveal data-delay="200">
+            <span class="timeline__dot">3</span>
+            <h3>Desarrollo ágil</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+          </li>
+          <li class="timeline__step" data-reveal data-delay="300">
+            <span class="timeline__dot">4</span>
+            <h3>Implementación y soporte</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== PROYECTOS / PORTAFOLIO ========== -->
+    <section class="section projects" id="proyectos">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Portafolio</p>
+          <h2 class="section__title">Proyectos que <span class="gradient-text">hablan por nosotros</span></h2>
+          <p class="section__subtitle">Casos reales de empresas que ya transformaron su operación.</p>
+        </header>
+
+        <div class="filters" role="tablist" aria-label="Filtrar proyectos" data-reveal>
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="logistica" role="tab" aria-selected="false">Logística</button>
+          <button class="filter" data-filter="automatizacion" role="tab" aria-selected="false">Automatización</button>
+          <button class="filter" data-filter="consultoria" role="tab" aria-selected="false">Consultoría</button>
+          <button class="filter" data-filter="apps" role="tab" aria-selected="false">Apps & IA</button>
+          <button class="filter" data-filter="bi" role="tab" aria-selected="false">BI</button>
+        </div>
+
+        <!-- Imágenes de ejemplo (picsum.photos): reemplazar por las reales en assets/img/projects/ -->
+        <div class="projects__grid" id="projectsGrid">
+          <article class="project" data-category="logistica" data-reveal>
+            <img src="https://picsum.photos/seed/kipugia-wms/800/600" alt="Sistema de gestión de almacenes" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">Software logístico</span>
+              <h3>Sistema WMS para distribuidora</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="project" data-category="automatizacion" data-reveal data-delay="100">
+            <img src="https://picsum.photos/seed/kipugia-rpa/800/600" alt="Automatización de procesos" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">Automatización</span>
+              <h3>Automatización de cobranzas</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="project" data-category="consultoria" data-reveal data-delay="200">
+            <img src="https://picsum.photos/seed/kipugia-bpm/800/600" alt="Consultoría de procesos" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">Consultoría</span>
+              <h3>Rediseño de procesos operativos</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="project" data-category="logistica" data-reveal>
+            <img src="https://picsum.photos/seed/kipugia-tms/800/600" alt="Gestión de flota y rutas" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">Software logístico</span>
+              <h3>Tracking de flota en tiempo real</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="project" data-category="apps" data-reveal data-delay="100">
+            <img src="https://picsum.photos/seed/kipugia-bot/800/600" alt="Agente de IA por WhatsApp" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">IA WhatsApp</span>
+              <h3>Asistente de ventas con IA</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+          <article class="project" data-category="bi" data-reveal data-delay="200">
+            <img src="https://picsum.photos/seed/kipugia-bi/800/600" alt="Dashboard de Business Intelligence" loading="lazy" width="800" height="600">
+            <div class="project__info">
+              <span class="project__tag">Business Intelligence</span>
+              <h3>Dashboard gerencial de KPIs</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NOSOTROS / POR QUÉ ========== -->
+    <section class="section section--dark about" id="nosotros">
+      <div class="container about__inner">
+        <div class="about__media" data-reveal>
+          <img src="https://picsum.photos/seed/kipugia-team/900/1000" alt="Equipo KIPUGIA" loading="lazy" width="900" height="1000">
+          <div class="about__badge">
+            <strong data-count="5">0</strong><span>años de<br>experiencia</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow" data-reveal>¿Por qué KIPUGIA?</p>
+          <h2 class="section__title" data-reveal>Confiables, precisos e <span class="gradient-text">innovadores</span></h2>
+          <p class="section__subtitle" data-reveal>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <ul class="features">
+            <li class="feature" data-reveal>
+              <i data-lucide="shield-check"></i>
+              <div><h3>Confiable</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p></div>
+            </li>
+            <li class="feature" data-reveal data-delay="100">
+              <i data-lucide="crosshair"></i>
+              <div><h3>Preciso</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p></div>
+            </li>
+            <li class="feature" data-reveal data-delay="200">
+              <i data-lucide="sparkles"></i>
+              <div><h3>Innovador</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta">
+      <div class="container cta__inner" data-reveal>
+        <h2>¿Listo para transformar tu empresa?</h2>
+        <p>Agenda una reunión gratuita y descubre cómo la tecnología puede impulsar tu operación.</p>
+        <a href="#contacto" class="btn btn--light" data-magnetic>Agendar reunión</a>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="section contact" id="contacto">
+      <div class="container contact__inner">
+        <div class="contact__info" data-reveal>
+          <p class="eyebrow">Contacto</p>
+          <h2 class="section__title">Hablemos de tu <span class="gradient-text">proyecto</span></h2>
+          <p class="section__subtitle">Cuéntanos qué necesitas y te responderemos en menos de 24 horas.</p>
+          <ul class="contact__list">
+            <li><i data-lucide="mail"></i> contacto@kipugia.com</li>
+            <li><i data-lucide="phone"></i> +51 900 000 000</li>
+            <li><i data-lucide="map-pin"></i> Lima, Perú</li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate data-reveal data-delay="150">
+          <div class="form__row">
+            <div class="field">
+              <input type="text" id="name" name="name" placeholder=" " required autocomplete="name">
+              <label for="name">Nombre</label>
+            </div>
+            <div class="field">
+              <input type="email" id="email" name="email" placeholder=" " required autocomplete="email">
+              <label for="email">Correo</label>
+            </div>
+          </div>
+          <div class="field">
+            <select id="service" name="service" required>
+              <option value="" disabled selected hidden></option>
+              <option>Software logístico</option>
+              <option>Automatización empresarial</option>
+              <option>Consultoría de procesos</option>
+              <option>Aplicaciones móviles</option>
+              <option>Agentes de IA por WhatsApp</option>
+              <option>Business Intelligence</option>
+              <option>Integraciones SUNAT</option>
+              <option>Otro</option>
+            </select>
+            <label for="service">Servicio de interés</label>
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="message">Mensaje</label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block" data-magnetic>Enviar mensaje</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#inicio" class="logo logo--light" aria-label="KIPUGIA inicio">
+          <svg class="logo__mark" viewBox="0 0 64 72" aria-hidden="true"><use href="#kipugia-mark"/></svg>
+          <span class="logo__text">KIPUGI<span>A</span></span>
+        </a>
+        <p class="footer__slogan">Tecnología que conecta y transforma.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="footer__links">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> KIPUGIA. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- WhatsApp flotante: cambiar el número -->
+  <a class="whatsapp" href="https://wa.me/51900000000" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <!-- Isotipo reutilizable (placeholder vectorial del logo; reemplazar por el SVG oficial) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="kg-up" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0" stop-color="#087BC1"/><stop offset="1" stop-color="#0AAEF5"/>
+      </linearGradient>
+      <linearGradient id="kg-down" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#087BC1"/><stop offset="1" stop-color="#00C7D9"/>
+      </linearGradient>
+      <symbol id="kipugia-mark" viewBox="0 0 64 72">
+        <path d="M14 10v52" stroke="currentColor" stroke-width="5"/>
+        <circle cx="14" cy="9" r="7.5" fill="currentColor"/>
+        <circle cx="14" cy="63" r="7.5" fill="currentColor"/>
+        <circle cx="14" cy="36" r="8.5" fill="currentColor"/>
+        <circle cx="14" cy="36" r="3.5" fill="var(--logo-hole, #fff)"/>
+        <path d="M24 31 50 10" stroke="url(#kg-up)" stroke-width="6" stroke-linecap="round"/>
+        <path d="M24 41 50 62" stroke="url(#kg-down)" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="52" cy="9" r="7.5" fill="#0AAEF5"/>
+        <circle cx="52" cy="63" r="7.5" fill="#00C7D9"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
